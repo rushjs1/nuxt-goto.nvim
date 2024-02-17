@@ -1,0 +1,1 @@
+require("goto-alias").setup()
