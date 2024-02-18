@@ -1,3 +1,7 @@
+--TODO:
+--tests
+--does .nuxt directory detection using string.concat have better preformance?
+
 local M = {}
 
 M.is_nuxt_project = false

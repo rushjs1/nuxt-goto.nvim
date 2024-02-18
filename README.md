@@ -1,0 +1,1 @@
+# Nuxt-goto-alias.nvim
