@@ -9,3 +9,8 @@ Using lsp `Go to Definition` on a vue component in nuxt will take you to a `.d.t
 Please see Anthonys readme [here](https://github.com/antfu/vscode-goto-alias?tab=readme-ov-file#motivation) for a better explanation of why this is necessary.
 
 ## Installation
+
+```lua
+--Packer
+use("rushjs1/nuxt-goto-alias.nvim")
+```
