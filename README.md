@@ -12,5 +12,5 @@ Please see Anthonys readme [here](https://github.com/antfu/vscode-goto-alias?tab
 
 ```lua
 --Packer
-use("rushjs1/nuxt-goto-alias.nvim")
+use("rushjs1/nuxt-goto.nvim")
 ```
