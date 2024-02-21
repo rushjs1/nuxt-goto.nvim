@@ -1,6 +1,7 @@
 --TODO:
 --tests
 --does .nuxt directory detection using string.concat have better preformance?
+--newly created components do not seem to workb
 
 local M = {}
 
