@@ -26,4 +26,4 @@ If you are using WhichKey "folke/which-key.nvim", you can add below to your keym
     k = { "<cmd>lua vim.lsp.buf.hover()<CR>", "Nuxt Definition"},
   },
 ```
-You also need to restart your project after adding an auto-imported components
+You also need to reopen your project and `npm run dev` after adding an auto-imported components
