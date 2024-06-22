@@ -14,6 +14,13 @@ Please see Anthonys readme [here](https://github.com/antfu/vscode-goto-alias?tab
 --Packer
 use("rushjs1/nuxt-goto.nvim")
 ```
+**lazy.nvim**
+```lua
+return {
+  "rushjs1/nuxt-goto.nvim",
+  ft = { "vue" }
+}:
+```
 
 # Usage
 
