@@ -14,3 +14,23 @@ Please see Anthonys readme [here](https://github.com/antfu/vscode-goto-alias?tab
 --Packer
 use("rushjs1/nuxt-goto.nvim")
 ```
+**lazy.nvim**
+```lua
+return {
+  "rushjs1/nuxt-goto.nvim",
+  ft = { "vue" }
+}:
+```
+
+# Usage
+
+If you are using WhichKey "folke/which-key.nvim", you can add below to your keymaps as using telescope builtin goto will not work.
+```lua
+  n = {
+    name = "Nuxt",
+    d = { "<cmd>lua vim.lsp.buf.definition()<CR>", "Nuxt Definition"},
+    r = { "<cmd>lua vim.lsp.buf.references()<CR>", "Nuxt References"},
+    k = { "<cmd>lua vim.lsp.buf.hover()<CR>", "Nuxt Definition"},
+  },
+```
+You also need to reopen your project and `npm run dev` after adding an auto-imported components
