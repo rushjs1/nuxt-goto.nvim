@@ -14,3 +14,19 @@ Please see Anthonys readme [here](https://github.com/antfu/vscode-goto-alias?tab
 --Packer
 use("rushjs1/nuxt-goto.nvim")
 ```
+
+## Usage
+
+```lua
+-- lspconfig.lua -- or wherever your lsp keymaps are set
+
+-- enable keybinds for available lsp server
+local on_attach = function(client, bufnr)
+    local opts = { noremap = true, silent = true, buffer = bufnr }
+
+    --set keybind for go to definition
+    keymap.set("n", "gd", vim.lsp.buf.definition, opts)
+end
+```
+
+Please ensure the .nuxt directory is present in your project
