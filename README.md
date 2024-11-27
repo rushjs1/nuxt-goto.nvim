@@ -48,7 +48,7 @@ end
 
 ## Important Notes
 
-Please ensure the .nuxt directory is present in your project
+Please ensure the `.nuxt` directory is present in your project
 
 Please note this plugin sets a wrapper around the neovim native LSP function `vim.lsp.buf.definition`, so if you are calling 'go to definition' another way it will not work.
-Please feel free to let me know of your use cases in an [issue](https://github.com/rushjs1/nuxt-goto.nvim/issues) :)
+Please feel free to let me know of your use cases in an [issue](https://github.com/rushjs1/nuxt-goto.nvim/issues).
